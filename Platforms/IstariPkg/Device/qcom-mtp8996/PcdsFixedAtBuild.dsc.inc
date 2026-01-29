@@ -1,9 +1,0 @@
-[PcdsFixedAtBuild.common]
-gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1600
-gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2560
-
-# Smbios Info
-gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemBrand|"Qualcomm"
-gAndromedaPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"6"
-
-gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"msmthulium"
