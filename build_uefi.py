@@ -82,7 +82,10 @@ def prepare_build(buildtype, package_name):
 
 
 def get_devices_list(package_name):
-    return os.listdir(os.path.join("Platforms", package_name, "Device"))
+    path = os.path.join("Platforms", package_name, "Device")
+    if not os.path.exists(path):
+        return []
+    return os.listdir(path)
 
 
 def get_platforms_list():
